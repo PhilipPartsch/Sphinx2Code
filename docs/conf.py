@@ -120,8 +120,8 @@ if html_theme == 'sphinx_immaterial':
             "edit": "material/file-edit-outline",
         },
         "site_url": "https://jbms.github.io/sphinx-immaterial/",
-        "repo_url": "https://github.dev/PhilipPartsch/ReConf2023-Product-As-Code",
-        "repo_name": "ReConf2023-Product-As-Code",
+        "repo_url": "https://github.dev/PhilipPartsch/Sphinx2Code",
+        "repo_name": "Sphinx2Code",
         "edit_uri": "blob/main/docs",
         "globaltoc_collapse": True,
         "features": [
