@@ -28,3 +28,6 @@ needs_fields = [
   { "name" = "type", "type" = "str", "default" = "impl" },
   { "name" = "links", "type" = "list[str]", "default" = [] },
 ]
+
+[codelinks.projects.cpp.analyse.need_id_refs]
+markers = ["@need-ids:"]
