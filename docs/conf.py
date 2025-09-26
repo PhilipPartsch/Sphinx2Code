@@ -119,7 +119,7 @@ if html_theme == 'sphinx_immaterial':
             "repo": "fontawesome/brands/github",
             "edit": "material/file-edit-outline",
         },
-        "site_url": "https://jbms.github.io/sphinx-immaterial/",
+        "site_url": "https://philippartsch.github.io/Sphinx2Code",
         "repo_url": "https://github.dev/PhilipPartsch/Sphinx2Code",
         "repo_name": "Sphinx2Code",
         "edit_uri": "blob/main/docs",
