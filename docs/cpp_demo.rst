@@ -26,6 +26,6 @@ Demo for cpp
    [Test]
 
 .. src-trace:: cpp demo
-   :id: SRC_CCP
-   :project: ccp
+   :id: SRC_CPP
+   :project: cpp
    :file: ./demo.cpp
