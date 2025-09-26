@@ -16,6 +16,5 @@ sphinx-test-reports
 pytest
 pytest-reportlog
 coverage
-sphinx-collections
 sphinx-preview
 sphinx-lint
