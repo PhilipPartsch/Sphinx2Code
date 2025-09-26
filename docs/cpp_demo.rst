@@ -28,4 +28,3 @@ Demo for cpp
 .. src-trace:: cpp demo
    :id: SRC_CPP
    :project: cpp
-   :file: ./demo.cpp
