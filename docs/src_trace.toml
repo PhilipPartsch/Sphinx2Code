@@ -7,7 +7,7 @@ remote_url_field = "remote-url" # Need's field name for remote URL
 
 # Configuration for source tracing project "cpp"
 [codelinks.projects.cpp]
-remote_url_pattern = "https://github.dev/PhilipPartsch/Sphinx2Code/{path}#L{line}" # URL pattern for remote source code
+remote_url_pattern = "https://github.com/PhilipPartsch/Sphinx2Code/blob/{commit}/{path}#L{line}"
 
 [codelinks.projects.cpp.source_discover]
 src_dir = "../code/cpp" # Relative path from this TOML config to the source directory
@@ -18,8 +18,8 @@ get_oneline_needs = true
 
 [codelinks.projects.cpp.analyse.oneline_comment_style]
 # Configuration for oneline comment style
-start_sequence = "[["   # Start sequence for oneline comments
-end_sequence = "]]"      # End sequence for the online comments; default is newline character
+start_sequence = "[["  # Start sequence for oneline comments
+end_sequence = "]]"    # End sequence for the online comments; default is newline character
 field_split_char = "," # Character to split fields in the comment
 # Fields that are defined in the oneline comment style
 needs_fields = [
