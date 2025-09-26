@@ -33,18 +33,18 @@ version = '0.1.0'
 on_rtd = os.environ.get("READTHEDOCS") == "True"
 
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.doctest',
+    #'sphinx.ext.duration',
+    #'sphinx.ext.doctest',
+    #'sphinx.ext.autodoc',
+    #'sphinx.ext.autosummary',
+    #'sphinx.ext.intersphinx',
+    #'sphinx.ext.viewcode',
+    #'sphinx.ext.doctest',
     'sphinx_needs',
     'sphinxcontrib.plantuml',
-    'sphinxcontrib.test_reports',
-    'sphinxcontrib.jquery', # https://github.com/sphinx-contrib/jquery
-    'sphinx_preview',
+    #'sphinxcontrib.test_reports',
+    #'sphinxcontrib.jquery', # https://github.com/sphinx-contrib/jquery
+    #'sphinx_preview',
     'sphinx_codelinks',
 ]
 
