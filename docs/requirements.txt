@@ -2,7 +2,7 @@ vale
 sphinx
 sphinxcontrib.jquery
 sphinxcontrib-plantuml
-sphinx-needs
+#sphinx-needs
 matplotlib
 sphinx-copybutton
 sphinxcontrib-programoutput
@@ -18,4 +18,4 @@ pytest-reportlog
 coverage
 sphinx-preview
 sphinx-lint
-sphinx_codelinks
+#sphinx_codelinks

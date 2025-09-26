@@ -44,6 +44,8 @@ jobs:
       run: |
         git clone https://github.com/useblocks/sphinx-needs.git ./sphinx_needs
         python -m pip install ./sphinx_needs/
+        git clone https://github.com/useblocks/sphinx-codelinks.git ./sphinx_codelinks
+        python -m pip install ./sphinx_codelinks/
     - name: Install dependencies
       run: |
         python -m pip install -r ./docs/requirements.txt
