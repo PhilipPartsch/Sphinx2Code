@@ -8,15 +8,12 @@ from sphinx_needs.api import add_dynamic_function
 
 sys.path.append(os.path.abspath('.'))
 
-sys.path.append(os.path.abspath('scripts'))
+sys.path.append(os.path.abspath('./scripts'))
 # For autodoc
 
 # For merge_dicts and other scripts on this level:
 sys.path.append(os.path.abspath('..'))
 
-# For test:
-sys.path.append(os.path.abspath('../tests'))
-import merge_dicts_test
 
 # -- Project information
 
