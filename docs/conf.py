@@ -45,6 +45,7 @@ extensions = [
     'sphinxcontrib.test_reports',
     'sphinxcontrib.jquery', # https://github.com/sphinx-contrib/jquery
     'sphinx_preview',
+    'sphinx_codelinks',
 ]
 
 templates_path = ['_templates']
@@ -179,3 +180,5 @@ plantuml_output_format = 'svg'
 # -- Sphinx-Needs
 
 needs_from_toml = "ubproject.toml"
+
+src_trace_config_from_toml = "src_trace.toml"

@@ -18,3 +18,4 @@ pytest-reportlog
 coverage
 sphinx-preview
 sphinx-lint
+sphinx_codelinks

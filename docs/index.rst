@@ -6,7 +6,7 @@ Sphinx2Code
    :caption: Contents
    :maxdepth: 1
 
-   schema_example
+   cpp_demo
 
 Indices and tables
 ******************
