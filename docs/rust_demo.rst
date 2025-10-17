@@ -60,8 +60,9 @@ Dynamic Diagrams for Unit Interactions
    :security: NO
    :safety: QM
    :status: valid
-   :implements: comp_req__rust_kvs
-   :satisfies: comp_arc_sta__rust_kvs
+
+   : implements comp_req__rust_kvs
+   : satisfies comp_arc_sta__rust_kvs
 
 .. uml : :
    :caption: Typical Use Flow
