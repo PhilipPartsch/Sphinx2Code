@@ -79,3 +79,14 @@ schema.enum = ["QM", "ASIL_A", "ASIL_B", "ASIL_C", "ASIL_D"]
 [needs.global_options]
 status = {default="draft"}
 safety = {default="QM"}
+
+[[needs.extra_links]]
+option= "satisfies"
+incoming = "satisfied by"
+outgoing = "satisfies"
+
+[[needs.extra_links]]
+option= "implements"
+incoming = "implemented by"
+outgoing = "implements"
+
