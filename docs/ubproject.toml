@@ -28,6 +28,34 @@ style = "node"
 directive = "impl"
 title = "Implementation"
 prefix = "I_"
+color = "#938bdbff"
+style = "node"
+
+[[needs.types]]
+directive = "dd_sta"
+title = "Design Decision"
+prefix = "dd_sta__"
+color = "#D3DB8B"
+style = "node"
+
+[[needs.types]]
+directive = "dd_dyn"
+title = "Design Decision"
+prefix = "dd_dyn__"
+color = "#D3DB8B"
+style = "node"
+
+[[needs.types]]
+directive = "sw_unit"
+title = "Software Unit"
+prefix = "sw_unit__"
+color = "#D3DB8B"
+style = "node"
+
+[[needs.types]]
+directive = "sw_unit_int"
+title = "Software Unit Interface"
+prefix = "sw_unit_int__"
 color = "#D3DB8B"
 style = "node"
 
@@ -38,29 +66,16 @@ schema.type = "string"
 schema.enum = ["QM", "A", "B", "C", "D"]
 
 [[needs.extra_options]]
-name = "security_state"
-description = "Security flag"
+name = "security"
+description = "Security"
 schema.type = "boolean"
 
 [[needs.extra_options]]
-name = "safety_state"
+name = "safety"
 description = "Automotive Safety Integrity Level"
 schema.type = "string"
 schema.enum = ["QM", "ASIL_A", "ASIL_B", "ASIL_C", "ASIL_D"]
 
-[[needs.extra_options]]
-name = "efforts"
-description = "FTE days"
-schema.type = "integer"
-schema.minimum = 0
-
-[[needs.extra_options]]
-name = "approved"
-description = "Approval flag"
-schema.type = "boolean"
-
 [needs.global_options]
 status = {default="draft"}
-approved = {default="False"}
-efforts = {default="0"}
-asil = {default="QM"}
+safety = {default="QM"}

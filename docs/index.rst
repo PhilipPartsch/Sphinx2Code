@@ -7,6 +7,7 @@ Sphinx2Code
    :maxdepth: 1
 
    cpp_demo
+   rust_demo
 
 Indices and tables
 ******************
