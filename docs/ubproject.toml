@@ -1,7 +1,6 @@
 [needs]
 id_required = false
 id_length = 3
-schema_definitions_from_json = "schemas.json"
 
 [[needs.types]]
 directive = "feat"
