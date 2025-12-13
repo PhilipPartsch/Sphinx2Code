@@ -9,4 +9,5 @@ remote_url_field = "remote-url" # Need's field name for remote URL
 [codelinks.projects.src]
 remote_url_pattern = "https://github.com/PhilipPartsch/Sphinx2Code/blob/{commit}/{path}#L{line}"
 
-
+[codelinks.projects.src.source_discover]
+src_dir = "../tests/doc_test/minimum_config"
