@@ -93,8 +93,8 @@ preview_config = {
 # -- Options for HTML output
 
 #html_theme = 'sphinx_rtd_theme'
-html_theme = 'sphinx_immaterial'
-#html_theme = 'alabaster' # Sphinx Defaul Theme
+#html_theme = 'sphinx_immaterial'
+html_theme = 'alabaster' # Sphinx Defaul Theme
 
 # If we do perform a PDF build, we have to switch to alabaster
 if os.environ.get("PDF", 0) == 1:
